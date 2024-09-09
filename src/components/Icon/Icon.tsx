@@ -4,11 +4,11 @@ import { Prettify } from '../../types';
 
 const DEFAULT_ICON_SIZE = 24;
 
-type IconName = 'chevron-left' | 'chevron-right';
+export type IconName = 'chevron-left' | 'chevron-right';
 
 type IconStyleProp = StyleProp<TextStyle>;
 
-type IconProp = Prettify<MaterialIconProp>;
+type IconProp = MaterialIconProp;
 
 type MaterialIconProp = {
   type: 'material';
@@ -29,6 +29,7 @@ export type IconProps = {
   name: IconName;
   size?: number;
   color: string;
+  style?: IconStyleProp;
 };
 
 type VectorIconProps = Prettify<IconProp & Omit<IconProps, 'name'>>;

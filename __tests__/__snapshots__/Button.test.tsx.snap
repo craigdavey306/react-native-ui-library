@@ -1,0 +1,1737 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Snapshots renders contained action button 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": "#0079c3",
+          "borderColor": "#0079c3",
+          "color": "#fff",
+        },
+        undefined,
+      ]
+    }
+    testID="contained-action-content"
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="contained-action"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#fff",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="contained-action-label"
+      >
+        Action
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders contained action button with icon 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": "#0079c3",
+          "borderColor": "#0079c3",
+          "color": "#fff",
+        },
+        undefined,
+      ]
+    }
+    testID="contained-action-content"
+  >
+    <View
+      style={
+        {
+          "marginLeft": 12,
+          "marginRight": -4,
+        }
+      }
+      testID="contained-action-icon"
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "#fff",
+              "fontSize": 24,
+            },
+            undefined,
+            {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="contained-action"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#fff",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="contained-action-label"
+      >
+        Action
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders contained critical button 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": "#d6453d",
+          "borderColor": "#d6453d",
+          "color": "#fff",
+        },
+        undefined,
+      ]
+    }
+    testID="contained-critical-content"
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="contained-critical"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#fff",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="contained-critical-label"
+      >
+        Critical
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders contained critical button with icon 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": "#d6453d",
+          "borderColor": "#d6453d",
+          "color": "#fff",
+        },
+        undefined,
+      ]
+    }
+    testID="contained-critical-content"
+  >
+    <View
+      style={
+        {
+          "marginLeft": 12,
+          "marginRight": -4,
+        }
+      }
+      testID="contained-critical-icon"
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "#fff",
+              "fontSize": 24,
+            },
+            undefined,
+            {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="contained-critical"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#fff",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="contained-critical-label"
+      >
+        Critical
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders contained success button 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": "#2b6430",
+          "borderColor": "#2b6430",
+          "color": "#fff",
+        },
+        undefined,
+      ]
+    }
+    testID="contained-success-content"
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="contained-success"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#fff",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="contained-success-label"
+      >
+        Success
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders contained success button with icon 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": "#2b6430",
+          "borderColor": "#2b6430",
+          "color": "#fff",
+        },
+        undefined,
+      ]
+    }
+    testID="contained-success-content"
+  >
+    <View
+      style={
+        {
+          "marginLeft": 12,
+          "marginRight": -4,
+        }
+      }
+      testID="contained-success-icon"
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "#fff",
+              "fontSize": 24,
+            },
+            undefined,
+            {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="contained-success"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#fff",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="contained-success-label"
+      >
+        Success
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders contained warning button 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": "#ccbe00",
+          "borderColor": "#ccbe00",
+          "color": "#000",
+        },
+        undefined,
+      ]
+    }
+    testID="contained-warning-content"
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="contained-warning"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#000",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="contained-warning-label"
+      >
+        Warning
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders contained warning button with icon 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": "#ccbe00",
+          "borderColor": "#ccbe00",
+          "color": "#000",
+        },
+        undefined,
+      ]
+    }
+    testID="contained-warning-content"
+  >
+    <View
+      style={
+        {
+          "marginLeft": 12,
+          "marginRight": -4,
+        }
+      }
+      testID="contained-warning-icon"
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "#000",
+              "fontSize": 24,
+            },
+            undefined,
+            {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="contained-warning"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#000",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="contained-warning-label"
+      >
+        Warning
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders outlined action button 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": undefined,
+          "borderColor": "#0079c3",
+          "color": "#0079c3",
+        },
+        undefined,
+      ]
+    }
+    testID="outlined-action-content"
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="outlined-action"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#0079c3",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="outlined-action-label"
+      >
+        Action
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders outlined action button with icon 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": undefined,
+          "borderColor": "#0079c3",
+          "color": "#0079c3",
+        },
+        undefined,
+      ]
+    }
+    testID="outlined-action-content"
+  >
+    <View
+      style={
+        {
+          "marginLeft": 12,
+          "marginRight": -4,
+        }
+      }
+      testID="outlined-action-icon"
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "#0079c3",
+              "fontSize": 24,
+            },
+            undefined,
+            {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="outlined-action"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#0079c3",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="outlined-action-label"
+      >
+        Action
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders outlined critical button 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": undefined,
+          "borderColor": "#d6453d",
+          "color": "#d6453d",
+        },
+        undefined,
+      ]
+    }
+    testID="outlined-critical-content"
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="outlined-critical"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#d6453d",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="outlined-critical-label"
+      >
+        Critical
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders outlined critical button with icon 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": undefined,
+          "borderColor": "#d6453d",
+          "color": "#d6453d",
+        },
+        undefined,
+      ]
+    }
+    testID="outlined-critical-content"
+  >
+    <View
+      style={
+        {
+          "marginLeft": 12,
+          "marginRight": -4,
+        }
+      }
+      testID="outlined-critical-icon"
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "#d6453d",
+              "fontSize": 24,
+            },
+            undefined,
+            {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="outlined-critical"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#d6453d",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="outlined-critical-label"
+      >
+        Critical
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders outlined success button 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": undefined,
+          "borderColor": "#2b6430",
+          "color": "#2b6430",
+        },
+        undefined,
+      ]
+    }
+    testID="outlined-success-content"
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="outlined-success"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#2b6430",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="outlined-success-label"
+      >
+        Success
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders outlined success button with icon 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": undefined,
+          "borderColor": "#2b6430",
+          "color": "#2b6430",
+        },
+        undefined,
+      ]
+    }
+    testID="outlined-success-content"
+  >
+    <View
+      style={
+        {
+          "marginLeft": 12,
+          "marginRight": -4,
+        }
+      }
+      testID="outlined-success-icon"
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "#2b6430",
+              "fontSize": 24,
+            },
+            undefined,
+            {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="outlined-success"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#2b6430",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="outlined-success-label"
+      >
+        Success
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders outlined warning button 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": undefined,
+          "borderColor": "#ccbe00",
+          "color": "#ccbe00",
+        },
+        undefined,
+      ]
+    }
+    testID="outlined-warning-content"
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="outlined-warning"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#ccbe00",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="outlined-warning-label"
+      >
+        Warning
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button Snapshots renders outlined warning button with icon 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 64,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {
+          "backgroundColor": undefined,
+          "borderColor": "#ccbe00",
+          "color": "#ccbe00",
+        },
+        undefined,
+      ]
+    }
+    testID="outlined-warning-content"
+  >
+    <View
+      style={
+        {
+          "marginLeft": 12,
+          "marginRight": -4,
+        }
+      }
+      testID="outlined-warning-icon"
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "#ccbe00",
+              "fontSize": 24,
+            },
+            undefined,
+            {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="outlined-warning"
+    >
+      <Text
+        maxFontSizeMultiplier={1.5}
+        style={
+          [
+            {
+              "color": "#ccbe00",
+            },
+            {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 0.1,
+              "lineHeight": 20,
+              "marginHorizontal": 5,
+              "marginVertical": 9,
+              "textAlign": "center",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+        testID="outlined-warning-label"
+      >
+        Warning
+      </Text>
+    </View>
+  </View>
+</View>
+`;

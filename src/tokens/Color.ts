@@ -8,10 +8,14 @@ export interface Colors {
   secondary: string;
   onSecondary: string;
   action: string;
+  onAction: string;
   critical: string;
+  onCritical: string;
   disabled: string;
   success: string;
+  onSuccess: string;
   warning: string;
+  onWarning: string;
   background: string;
   border: string;
   text: string;
@@ -25,10 +29,14 @@ export const LightColors: Colors = {
   secondary: Green.grade70,
   onSecondary: white,
   action: Blue.grade50,
+  onAction: white,
   critical: Red.grade40,
+  onCritical: white,
   disabled: Disabled.light,
-  success: Green.grade60,
-  warning: Yellow.grade30,
+  success: Green.grade70,
+  onSuccess: white,
+  warning: Yellow.grade60,
+  onWarning: black,
   background: white,
   border: Gray.grade50,
   text: black,
@@ -42,10 +50,14 @@ export const DarkColors: Colors = {
   secondary: Green.grade80,
   onSecondary: white,
   action: Blue.grade30,
+  onAction: white,
   critical: Red.grade50,
+  onCritical: white,
   disabled: Disabled.dark,
   success: Green.grade60,
+  onSuccess: white,
   warning: Yellow.grade30,
+  onWarning: black,
   background: black,
   border: Gray.grade30,
   text: white,
