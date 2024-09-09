@@ -49,7 +49,13 @@ function renderVectorIconComponent({
   switch (type) {
     case 'material':
       return (
-        <MaterialIcon size={size} name={name} color={color} style={style} />
+        <MaterialIcon
+          size={size}
+          name={name}
+          color={color}
+          style={style}
+          accessible={false}
+        />
       );
     default:
       return null;
