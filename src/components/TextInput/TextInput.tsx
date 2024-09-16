@@ -49,6 +49,7 @@ export type TextInputProps = LabelProps & {
   testID?: string;
   style?: TextStyle;
   onChange: (value: string) => void;
+  accessibilityLabel?: string;
 };
 
 export const TextInput = React.memo(React.forwardRef(Component));
@@ -93,6 +94,7 @@ function Component(
       />
       <NativeTextInput
         autoFocus={props.autoFocus}
+        accessibilityLabel={props.accessibilityLabel}
         ref={ref}
         disableFullscreenUI
         editable={!disabled}

@@ -23,6 +23,7 @@ const DisabledText = ({ theme, onChange, value }: TestComponentProps) => {
         value={value}
         disabled={true}
         testID="disabled-input"
+        accessibilityLabel="disabled input text"
       />
     </View>
   );
@@ -52,6 +53,7 @@ const NumericInput = ({
         value={input}
         maxLength={5}
         testID="numeric-input"
+        accessibilityLabel="numeric input text"
       />
     </View>
   );
@@ -77,6 +79,7 @@ const DefaultTextInput = ({ theme, onChange, value }: TestComponentProps) => {
         value={input}
         maxLength={60}
         testID="default-input"
+        accessibilityLabel="default input text"
       />
     </View>
   );
@@ -87,17 +90,21 @@ export const TextInputScreen = () => {
   const [disabledText, setDisabledText] = useState('Disabled Text');
   const [numericText, setNumericText] = useState('');
   const [defaultText, setDefaultText] = useState('');
+  const [renderedText, setRenderedText] = useState(disabledText);
 
   const handleDisabledTextChange = (value: string) => {
     setDisabledText(value);
+    setRenderedText(value);
   };
 
   const handleNumericTextChange = (value: string) => {
     setNumericText(value);
+    setRenderedText(value);
   };
 
   const handleDefaultTextChange = (value: string) => {
     setDefaultText(value);
+    setRenderedText(value);
   };
 
   return (
@@ -117,6 +124,16 @@ export const TextInputScreen = () => {
         onChange={handleDefaultTextChange}
         value={defaultText}
       />
+
+      <View style={styles.renderTextContainer}>
+        <Text>User input:</Text>
+        <Text
+          testID="test-rendered-text"
+          style={styles.renderText}
+          accessibilityLabel="test rendered text">
+          {renderedText}
+        </Text>
+      </View>
     </View>
   );
 };
@@ -130,5 +147,16 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     flexDirection: 'column',
     marginTop: 5,
+  },
+  renderTextContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 50,
+    marginHorizontal: 10,
+  },
+  renderText: {
+    color: 'red',
+    fontWeight: 'bold',
   },
 });

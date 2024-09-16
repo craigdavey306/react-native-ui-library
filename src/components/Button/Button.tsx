@@ -92,10 +92,8 @@ export const Button = ({
         <Pressable
           onPress={onPress}
           testID={testID}
-          accessibilityLabel={accessibilityLabel}
-          accessibilityRole={accessibilityRole}
-          accessibilityHint={accessibilityHint}
-          disabled={disabled}>
+          disabled={disabled}
+          accessible={false}>
           <Text
             style={[
               { color: buttonStyles.color },
@@ -103,6 +101,9 @@ export const Button = ({
               disabled && styles.disabled,
               uppercase && styles.uppercaseLabel,
             ]}
+            accessibilityLabel={accessibilityLabel}
+            accessibilityRole={accessibilityRole}
+            accessibilityHint={accessibilityHint}
             maxFontSizeMultiplier={maxFontSizeMultiplier}
             testID={`${testID}-label`}>
             {title}
